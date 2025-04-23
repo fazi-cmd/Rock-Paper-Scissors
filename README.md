@@ -11,8 +11,8 @@ A simple Rock Paper Scissors game built using HTML, CSS, and JavaScript. Challen
 
 ## 🚀 Demo
 
-Check out the live version here: [Live Demo](#)  
-_(Replace `#` with your GitHub Pages link if deployed)_
+Check out the live version here:
+https://rockpaperscissorsreal.netlify.app/
 
 ## 🛠️ Technologies Used
 
