@@ -1,0 +1,81 @@
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 100px; 
+}
+
+#rock, #Paper, #Scissors {
+    width: 135px; 
+    height: 135px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 5px solid #420660; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer;
+    margin-top: 5%;
+}
+#heading{
+    text-align: center;
+    color: antiquewhite;
+}
+.score-board {
+    display: flex;
+    justify-content: center; /* Centers the scoreboard */
+    gap: 100px; /* Space between user and computer scores */
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-score, .comp-score {
+    text-align: center;
+    background-color: white; /* Light background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    width: 120px;
+    border: 3px solid #420660;
+}
+
+.user-score p, .comp-score p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+#user, #comp {
+    font-size: 36px;
+    font-weight: bold;
+    color: #420660;
+}
+.msg-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.msg {
+    display: inline-block;
+    background-color: purple; 
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid purple;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.msg:hover {
+    transform: scale(1.05);
+    background-color: purple;
+    cursor: pointer;
+}
+body {
+    background-image: url("back1.jpg"); /* Replace with your image path */
+    background-size: cover; /* Cover the full screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-attachment: fixed;
+}
